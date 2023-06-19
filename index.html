@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/src/index.js" async defer></script>
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <p id="title">Calculadora sencilla</p>
+    <div class="container">
+        <div  id="inputs">
+            <label for="numberOne">Ingresa un numero</label>
+            <input type="number" class="data" id="numberOne">
+            <label for="numberTwo">Ingresa un numero</label>
+            <input type="number" class="data" id="numberTwo">
+        </div>
+        <div class="container" id="operations" >
+            <p>Elige una operación</p>
+            <div id="buttons">
+                <button class="btn" id="plus">+</button>
+                <button class="btn" id="minus">-</button>
+                <button class="btn" id="multiplication">x</button>
+                <button class="btn" id="divition">/</button>
+            </div>
+           
+        </div>
+        <div id="screen">
+            <p id="result"></p>
+        </div>
+    </div>
+    
+</body>
+</html>
